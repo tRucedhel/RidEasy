@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorprimary"
+    tools:context=".LoginActivity2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301"></ImageView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rec15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_driver"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackground"
+        android:fontFamily="@font/segoeuibold"
+        android:text="I'm Driver"
+        android:textColor="@color/colorprimarygrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rec15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/customer_login_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackground"
+        android:fontFamily="@font/segoeuibold"
+        android:text="I'm Customer"
+        android:textColor="@color/colorprimarygrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
