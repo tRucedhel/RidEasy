@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorprimary"
+    tools:context=".CustomerLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rectangle"
+        />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/segoeuibold"
+        android:textSize="25dp"
+        android:textColor="@color/colorprimarydark"
+        android:text="Log in" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="305dp"
+        android:fontFamily="@font/redhatdisplay"
+        android:textColor="@color/colorprimarydark"
+        android:textSize="14dp"
+        android:text="Hello there! Sign In to your RidEasy Account" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:src="@drawable/rectangle" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="330dp"
+        android:ems="10"
+        android:textSize="14dp"
+        android:fontFamily="@font/segoeui"
+        android:background="@color/colorprimarydark"
+        android:textColorHint="@color/colorprimarygrey"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="365dp"
+        android:ems="10"
+        android:textSize="14dp"
+        android:fontFamily="@font/segoeui"
+        android:background="@color/colorprimarydark"
+        android:textColorHint="@color/colorprimarygrey"
+        android:hint="  Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:fontFamily="@font/segoeuibold"
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="415dp"
+        android:backgroundTint="@color/colorbutton"
+        android:text="Log In"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
