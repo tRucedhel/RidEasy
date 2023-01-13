@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "939350431748",
+    "project_id": "rideasy-6c34a",
+    "storage_bucket": "rideasy-6c34a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939350431748:android:a355c3f322bc445dc27d51",
+        "android_client_info": {
+          "package_name": "com.project.RidEasyDriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939350431748-unnu8l3795tvak221ssvc6qeb0qmakud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGlIRQxU0EEjatWywxByHvm28WZJ4LOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939350431748-unnu8l3795tvak221ssvc6qeb0qmakud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
